@@ -1,8 +1,4 @@
-/* =========================================
-   Шрифти, Глобальні, Типографіка, Базові елементи
-   ========================================= */
 
-/* 1. ПІДКЛЮЧЕННЯ ШРИФТІВ */
 @font-face {
     font-family: 'Karima';
     src: url('../fonts/Karima.ttf') format('truetype');
@@ -120,7 +116,7 @@ button:hover, input[type="submit"]:hover {
     background-color: #1a223f;
 }
 
-/* Додаткові класи центрування */
+
 .mx-auto { margin-left: auto !important; margin-right: auto !important; }
 .mb-5 { margin-bottom: 3rem !important; }
 .mb-0 { margin-bottom: 0 !important; }
