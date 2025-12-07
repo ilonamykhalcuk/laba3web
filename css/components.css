@@ -1,6 +1,4 @@
-/* =========================================
-   Банери, Картки, Спеціальні форми
-   ========================================= */
+
 
 /* HERO SECTION */
 .hero, .hero-about, .hero-catalog, .hero-contact, .hero-reviews {
@@ -102,7 +100,7 @@
 /* ЗОБРАЖЕННЯ */
 .tour-item img, .tour-img {
     width: 100%; 
-    height: 250px !important; /* Трохи зменшив висоту для 4 колонок, щоб виглядало пропорційно */
+    height: 250px !important; 
     object-fit: cover; 
     display: block;
     margin: 0;
@@ -155,12 +153,12 @@
 /* АДАПТИВНІСТЬ ДЛЯ 4 КОЛОНОК */
 @media (max-width: 1100px) {
     .tour-gallery, .tour-grid {
-        grid-template-columns: repeat(2, 1fr); /* На планшетах - 2 колонки */
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (max-width: 600px) {
     .tour-gallery, .tour-grid {
-        grid-template-columns: 1fr; /* На телефонах - 1 колонка */
+        grid-template-columns: 1fr; 
     }
 }
 
@@ -475,9 +473,7 @@ input:focus, textarea:focus, select:focus { outline: none; }
     .filter-group { width: 100%; }
 }
 
-/* =========================================
-   АДАПТИВНІСТЬ (MOBILE FIXES)
-   ========================================= */
+
 
 @media (max-width: 768px) {
     
